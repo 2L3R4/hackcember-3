@@ -2,4 +2,7 @@
 
 ## solver for hackcember#3 
 
-<https://www.floriandalwigk.de/das-cyber-rotkaeppchen/>
+all infos -> <https://www.floriandalwigk.de/das-cyber-rotkaeppchen/>
+
+
+Danke an (Algorithmen verstehen)[https://www.youtube.com/c/Algorithmenverstehen] für den Aufwand...
