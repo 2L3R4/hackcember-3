@@ -18,13 +18,11 @@ def main(file="maerchen.txt"):
         for line in f.readlines():
             
             for word in line.lower().split(" "):
-                if word.startswith('"'):
-                    # remove " infront of word because there are some words that have it infront of 'cyber' 
-                    word = word[1:]
-                if word.startswith("cyber-"):
+                
+                if "cyber-" in word.lower():
                     print(f"{word.strip()}:\t1")
                     msgbits += b"1"
-                elif word.startswith("cyber"):
+                elif "cyber" in word.lower():
                     print(f"{word.strip()}:\t0")
                     msgbits += b"0"
                 else:
